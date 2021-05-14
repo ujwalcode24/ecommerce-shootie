@@ -1,0 +1,23 @@
+.cardContainer {
+  margin: 5px;
+  cursor: pointer;
+  img {
+    object-fit: contain;
+    width: 100%;
+  }
+  .cardInfo {
+    .title {
+      font-size: 1.2rem;
+      letter-spacing: 0.8;
+    }
+    .priceSection {
+      span {
+        padding-right: 5px;
+      }
+      .originalPrice {
+        text-decoration: line-through;
+        color: gray;
+      }
+    }
+  }
+}
